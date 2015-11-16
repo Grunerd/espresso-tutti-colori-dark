@@ -1,0 +1,100 @@
+/*
+	@theme Espresso tutti colori - Dark
+	@override-placeholders html, xml, sourcecode.js
+*/
+
+:document-base {
+	color: #CCCCCC;
+	background-color: #1A191A;
+	insertion-point-color: #31BDEB;
+	selection-background-color: #18414E;
+	/*current-line-background-color: #18414E;*/
+}
+
+apache, css, js, php, python, ruby, source, sourcecode, tag, constant {
+	spell-check: disabled;
+}
+
+tag, tag > string > punctuation {
+	color: #84bfef;
+}
+
+tag>name {
+	color: #2F6F9F;
+	/*background-color: rgb(244, 250, 255);*/
+}
+
+attribute-name, punctuation.definition.tag {
+	color: #4F9FCF;
+}
+
+tag > string.quoted, tag > attribute-with-value > string.quoted {
+	color: #d44950;
+}
+
+tag > string > punctuation {
+	font-weight: normal;
+}
+
+css.embedded attribute-name, css.embedded punctuation.definition.tag {
+	color: #DF9F4F;
+}
+
+comment, comment > punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted {
+	color: #b2b2b2;
+	font-weight: normal;
+}
+
+string.quoted {
+	color: #bc670f;
+	/*background-color: rgba(251,233,173,0.1);*/
+}
+
+string.quoted > punctuation {
+	color: #e69a4c;
+}
+
+string.quoted > escape {
+	font-weight: bold;
+	background-color: rgba(251,233,173,0.8);
+}
+
+variable > punctuation {
+	color: #865fdb;
+}
+
+operator {
+	color: #626fc9;
+}
+
+open-bracket, close-bracket {
+	color: #7f7f7f;
+}
+
+support.function, function-call {
+	color: #4e279a;
+	font-weight: bold;
+}
+
+keyword.control, storage.type {
+	color: #6700b9;
+}
+
+function > name {
+	color: #3a1d72;
+	font-weight: bold;
+}
+
+js.embedded {
+	color: #434343;
+}
+
+constant.numeric, constant.language {
+	color: #7653c1;
+	/*background-color: #f3f2ff;*/
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
