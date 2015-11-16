@@ -5,7 +5,7 @@
         <key>author</key>
         <string>Alexander Grunert</string>
         <key>comment</key>
-        <string>A dark theme based on Espresso's default theme "Espresso tutti colori". tmTheme-version based on the conversion made by Martin Kühl.</string>
+        <string>A dark theme based on Espresso's default theme "Espresso tutti colori". The tmTheme-version is based on the conversion (https://github.com/mkhl/espresso-tutti-colori.tmtheme) made by Martin Kühl (https://github.com/mkhl).</string>
         <key>name</key>
         <string>Espresso tutti colori - Dark</string>
         <key>settings</key>
@@ -16,7 +16,7 @@
                     <key>background</key>
                     <string>#1A191A</string>
                     <key>caret</key>
-                    <string>#000000</string>
+                    <string>#31BDEB</string>
                     <key>foreground</key>
                     <string>#CCCCCC</string>
                     <key>invisibles</key>
