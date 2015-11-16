@@ -14,6 +14,9 @@ Copy `Espresso tutti colori - Dark.tmTheme` file to `~/Library/Containers/com.te
 
 A brief instruction on how to add your own syntax defitinons and themes in [Textastic for iOS](http://www.textasticapp.com) can be found [here](http://www.textasticapp.com/iphone/v5/manual/lessons/How_can_I_add_my_own_syntax_definitions__themes_and_templates.html).
 
+![Preview in Espresso](http://www.grunerd.com/images/preview_espresso.png)
+
+![Preview in Textastic](http://www.grunerd.com/images/preview_textastic.png)
 
 ### [TextMate][]
 Double-click or `open` the `Espresso tutti colori - Dark.tmtheme` file and TextMate will install it on it’s own.
