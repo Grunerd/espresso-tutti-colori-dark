@@ -5,7 +5,7 @@
 
 :document-base {
 	color: #CCCCCC;
-	background-color: #1A191A;
+	background-color: #232122;
 	insertion-point-color: #31BDEB;
 	selection-background-color: #18414E;
 	/*current-line-background-color: #18414E;*/
@@ -15,17 +15,19 @@ apache, css, js, php, python, ruby, source, sourcecode, tag, constant {
 	spell-check: disabled;
 }
 
+
 tag, tag > string > punctuation {
-	color: #84bfef;
+	color: #5FAFD8;
 }
 
-tag>name {
-	color: #2F6F9F;
+entity.name, tag>name {
+	color: #488CCB;
 	/*background-color: rgb(244, 250, 255);*/
 }
 
+
 attribute-name, punctuation.definition.tag {
-	color: #4F9FCF;
+	color: #5FAFD8;
 }
 
 tag > string.quoted, tag > attribute-with-value > string.quoted {
@@ -72,7 +74,7 @@ open-bracket, close-bracket {
 }
 
 support.function, function-call {
-	color: #4e279a;
+	color: #8A6DCC;
 	font-weight: bold;
 }
 
@@ -81,7 +83,7 @@ keyword.control, storage.type {
 }
 
 function > name {
-	color: #3a1d72;
+	color: #623DAB;
 	font-weight: bold;
 }
 
@@ -98,3 +100,21 @@ invalid {
 	background-color: #f93232;
 	color: #f9f2ce;
 }
+
+css.selector, css.selector > entity > punctuation {
+	color: #488CCB;
+}
+
+
+css > property-name {
+	color: #DE590A;
+}
+
+css property-value {
+	color: #8A6DCC;
+}
+
+css punctuation{
+	color: #919191;
+}
+
